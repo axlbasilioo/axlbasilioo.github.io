@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+@media screen and (max-width: 640px);
+html,body{
+    width: inherit;
+    margin:0;
+    height:120%;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to right, #00076f,#44008b, #000000);
+}
+.txt-rotate{
+    text-decoration: underline gray; 
+}
+.uni{
+    color: #814;
+}
+ .fill:hover, .fill:focus {
+	 box-shadow: inset 0 0 0 2em var(--hover);
+}
+ .pulse:hover, .pulse:focus {
+	 animation: pulse 1s;
+	 box-shadow: 0 0 0 2em transparent;
+}
+@keyframes pulse {
+	 0% {
+		 box-shadow: 0 0 0 0 var(--hover);
+	}
+}
+ .pulse {
+	 --color: #ef6eae;
+	 --hover: #c95d93;
+}
+button {
+    
+	 color: var(--color);
+	 transition: 0.25s;
+}
+ button:hover, button:focus {
+	 border-color: var(--hover);
+	 color: #fff;
+}
+button {
+
+	 background: none;
+	 border: 2px solid;
+	 font: inherit;
+	 line-height: 1;
+	 margin: 0.5em;
+	 padding: 1em 2em;
+}
+header{
+    margin: 6%;
+    text-align: center;
+    color: #eee;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    object-fit: contain;
+}
+.content{
+    width: inherit;
+    opacity: 0.9;
+  padding:5% 10%;
+  text-align:justify;
+   background: #ffffff;
+}
+h1{
+    font-size: 35px;
+}
+p{
+    opacity: 3;
+    font-size: 30px;
+}
+.myTools{
+    margin: 1%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    object-fit: contain;
+}
+li{
+    font-size: 25px;
+}
+.imagesIDev{
+    opacity: 0.9;
+    padding: 5%, 10%;
+    text-align: justify;
+    background: #ffffff;
+}
+.projectImage{
+    width: 200px;
+    margin: 1%
+    
+}
+.miencabezado{
+    padding: 5%, 10%;
+    text-align: center;
+}
+.misubtitulo{
+    text-align: center;
+}
+.imagecontainer{
+    margin: 1%;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    object-fit: contain;
+}
