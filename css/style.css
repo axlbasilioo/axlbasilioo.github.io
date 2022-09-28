@@ -86,8 +86,12 @@ p{
     align-content: flex-start;
     object-fit: contain;
 }
+
 li{
     font-size: 25px;
+}
+.fname{
+    
 }
 .imagesIDev{
     opacity: 0.9;
@@ -99,6 +103,10 @@ li{
     width: 200px;
     margin: 1%
     
+}
+.overlay{
+    background: #FFF;
+    opacity: 0.9;
 }
 .miencabezado{
     padding: 5%, 10%;
