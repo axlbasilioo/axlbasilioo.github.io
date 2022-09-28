@@ -1,6 +1,6 @@
 document.write('<a><h1>About me</h1></a>\
 \
-<p>I\'m a multi plataform software engineer graduated at <a class="uni">University of South West of Guanajuato (UTSOE)</a>. After my Thesis i worked with networking installations, CCTV and developing Apps for Android while i was implementing new Tools to automate process with Cloud access.\
+<p>I\'m a multi plataform software engineer graduated at <a class="uni" href="http://utsoe.edu.mx">University of South West of Guanajuato (UTSOE)</a>. After my Thesis i worked with networking installations, CCTV and developing Apps for Android while i was implementing new Tools to automate process with Cloud access.\
             </p>\
         <h2>Some Technologies i\'ve work with</h2>\
         <div class="myTools">\
